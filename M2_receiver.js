@@ -21,7 +21,7 @@ async function processRequest() {
 
       logger.info("Received request:", request);
 
-      // Process the operation and prepare response
+      
       const response = { result: "success" };
 
       channel.sendToQueue(
